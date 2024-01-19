@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Firebasestorage"
+        tools:targetApi="31">
+        <activity
+            android:name=".AdminSignup"
+            android:exported="false"
+            android:label="@string/title_activity_admin_signup"
+            android:theme="@style/Theme.Firebasestorage" />
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_admin_login"
+            android:theme="@style/Theme.Firebasestorage" />
+        <activity
+            android:name=".ServiceActivity"
+            android:exported="false"
+            android:label="@string/title_activity_service"
+            android:theme="@style/Theme.Firebasestorage" />
+        <activity
+            android:name=".UpdateDetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_update_details"
+            android:theme="@style/Theme.Firebasestorage" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_details"
+            android:theme="@style/Theme.Firebasestorage" />
+        <activity
+            android:name=".InsertActivity"
+            android:exported="false"
+            android:label="@string/title_activity_insert"
+            android:theme="@style/Theme.Firebasestorage" />
+        <activity
+            android:name=".Splashscreen"
+            android:exported="true"
+            android:label="QinetraLaundry"
+            android:theme="@style/Theme.Firebasestorage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LocationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_location"
+            android:theme="@style/Theme.Firebasestorage" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Firebasestorage" />
+    </application>
+
+</manifest>

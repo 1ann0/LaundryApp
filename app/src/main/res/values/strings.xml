@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Firebasestorage</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_insert">InsertActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_update_details">UpdateDetailsActivity</string>
+    <string name="title_activity_service">ServiceActivity</string>
+    <string name="title_activity_admin_login">AdminLogin</string>
+    <string name="title_activity_admin_signup">AdminSignup</string>
+</resources>
